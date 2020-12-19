@@ -1,0 +1,1059 @@
+/*#a62ed9*/
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html{  /* <!-- ----------------imam------------------ --> */
+  scroll-behavior: smooth;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #222;
+}
+
+
+.tittle {
+    color: #fff;
+    text-align: center;
+    font-weight: 200;
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tittle h2 span {
+    font-weight: 800;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+/*======================================
+            navbar css start
+========================================*/
+.navbar-brand{  /* <!-- ----------------imam------------------ --> */
+    display: none;
+    color: transparent;
+}
+
+ .navbar button{
+        outline: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+nav .navbar-toggler{  /* <!-- ----------------imam------------------ --> */
+    color: #fff;
+}
+.menu {
+    position: absolute;
+    z-index: 999;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: 20px;
+    width: 100%;  /* <!-- ----------------imam------------------ --> */
+  
+}
+
+.menu ul {
+
+    margin: 0 auto;
+}
+
+.menu ul li a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 3px;
+    padding: 15px 20px !important;
+    -webkit-transition: .4s;
+    transition: .4s;
+    position: relative;
+
+}
+
+/*
+
+.menu ul li a:hover {
+    color: #a62ed9;
+}
+*/
+
+
+.menu ul li .active {
+
+    background: #a62ed9;
+    color: #fff;
+}
+
+
+.fixed {
+    position: fixed !important;
+    top: 0;
+    background: #fff;
+    -webkit-animation: menu .5s;
+    animation: menu .5s;
+    width: 100%;
+
+}
+
+.fixed ul li a {
+    color: #222;
+
+
+
+}
+
+
+
+
+
+
+
+.fixed .navbar-brand {
+    border: 0;
+    -webkit-transform: skewX(0);
+    transform: skewX(0);
+    position: static;
+    height: 70px;
+    line-height: 63px;
+}
+
+.fixed .navbar-brand img {
+    -webkit-transform: skewX(0);
+    transform: skewX(0);
+
+}
+
+@-webkit-keyframes menu {
+    from {
+        top: -80px;
+    }
+
+    to {
+        top: 0px;
+    }
+}
+
+@keyframes menu {
+    from {
+        top: -80px;
+    }
+
+    to {
+        top: 0px;
+    }
+}
+
+/*======================================
+            navbar css end
+========================================*/
+
+
+
+/*======================================
+            banner css start
+========================================*/
+
+#banner-part .banner {
+
+    /*    background: url(../image/banner.jpg) no-repeat center;*/
+    background: url(../image/fariya.jpeg) no-repeat center;
+    background-size: cover;
+
+
+}
+
+#banner-part .banner .overlay {
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(to right,rgba(0, 0, 0),red,rgba(0, 0, 0)); */
+    background: linear-gradient(70deg,rgb(3, 3, 27,.0) 20%,rgb(223, 14, 14,.0) 50%,rgb(0, 0, 0.9) ); 
+    /*
+    padding-top: 300px;
+    padding-bottom: 150px;
+*/
+
+
+    padding-top: 210px;
+    padding-bottom: 191px;
+    text-align: center;
+}
+
+#banner-part .banner .overlay .text {
+    text-align: right;
+}
+
+/*
+#banner-part .banner .overlay .ami{
+    text-align: center;
+    color: #fff;
+}
+*/
+
+#banner-part .banner .overlay h3 {
+    font-family: 'Open Sans', sans-serif;
+    /*    font-size: 70px;*/
+    font-size: 63px;
+    font-weight: 300;
+    color: #fff;
+}
+
+
+#banner-part .banner .overlay h1 {
+
+    font-family: 'Blinker', sans-serif;
+    /*    font-size: 90px;*/
+
+    font-size: 81px;
+    font-weight: 800;
+    color: #fff;
+}
+
+#banner-part .banner .overlay .ami {
+    margin-top: 35px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 27px;
+    height: 50px;
+}
+
+/*======================================
+            banner css end
+========================================*/
+
+
+/*======================================
+            portfolio css start
+========================================*/
+
+#portfolio-part {
+
+    padding-top: 90px;
+    /*    padding-bottom: 30px;*/
+}
+
+
+#portfolio-part .custom {
+
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+
+#portfolio-part .custom .img {
+
+    width: 97%;
+    margin-bottom: 40px;
+    position: relative;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, .3);
+    border-radius: 10px;
+    -webkit-transition: .4s linear;
+    transition: .4s linear;
+}
+
+#portfolio-part .custom .img img {
+
+    width: 100%;
+    height: 100%;
+}
+
+#portfolio-part .custom .img .overlay {
+    height: 88%;
+    width: 94%;
+    background: rgba(148, 0, 211, .3);
+
+    position: absolute;
+    top: 10px;
+    left: 9px;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: .4s ease-in-out;
+    transition: .4s ease-in-out;
+    border: 5px solid rgba(255, 255, 255, .5);
+}
+
+
+#portfolio-part .custom .img .overlay a i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: .4s;
+    transition: .4s;
+
+}
+
+#portfolio-part .custom .img .overlay a i:hover {
+    background: #fff;
+    color: #a62ed9;
+
+}
+
+#portfolio-part .custom .img:hover .overlay {
+    -webkit-transform: scale(100%);
+    transform: scale(100%);
+}
+
+#portfolio-part ul {
+    text-align: center;
+    margin: 0 auto;
+padding: 70px 0;
+}
+
+#portfolio-part ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+
+    font-size: 18px;
+    display: inline-block;
+    color: rgba(255, 255, 255, .5);
+    margin-right: 30px;
+    position: relative;
+    -webkit-transition: .4s;
+    transition: .4s;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+#portfolio-part ul li::after {
+    width: 0;
+    height: 2px;
+    background: #a62ed9;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    content: "";
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+#portfolio-part ul li:hover {
+    color: #a62ed9;
+}
+
+#portfolio-part ul li:hover:after {
+    width: 100%;
+}
+
+#portfolio-part ul .mixitup-control-active {
+    color: #b54ae3;
+}
+
+#portfolio-part .button {
+    text-align: center;
+}
+
+#portfolio-part .button a {
+    padding: 10px 20px;
+    background: #a62ed9;
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    display: inline-block;
+    margin-right: 5px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+#portfolio-part .button a:hover {
+    background: #9400D3;
+}
+
+
+/*======================================
+            portfolio css end
+========================================*/
+
+/*======================================
+            about css start
+========================================*/
+#about-part {
+    padding-top: 120px;
+}
+
+#about-part .img {
+    width: 100%;
+    height: 100%;
+
+}
+
+#about-part .img img {
+    width: 100%;
+    height: 100%;
+}
+
+#about-part .me {
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+#about-part .text {
+    padding-left: 65px;
+    color: rgba(255, 255, 255, 0.4);
+
+}
+
+#about-part .text .im {
+
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+#about-part .text .pp {
+
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+#about-part .text a {
+    padding: 10px 20px;
+    background: #a62ed9;
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    display: inline-block;
+    margin-right: 5px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+#about-part .text .bb {
+    background: #6c757d;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+
+#about-part .text a:hover {
+    background: #9400D3;
+}
+
+#about-part .text .bb:hover {
+    background: #5a6268;
+}
+
+
+/*======================================
+            about css end
+========================================*/
+
+
+/*======================================
+            service css start
+========================================*/
+#service-part {
+    padding: 90px 0;
+}
+
+#service-part .service {
+    margin-top: 50px;
+}
+
+#service-part .service .one {
+    width: 30%;
+
+    margin-top: 30px;
+    background: #333;
+    margin: 20px;
+    text-align: center;
+    padding: 30px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+#service-part .service .one .img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: #a62ed9;
+
+}
+
+
+
+#service-part .service .one .img img {
+    width: 50px;
+    height: 74px;
+    margin: 0 auto;
+    padding-top: 26px;
+
+}
+
+#service-part .service .one h3 {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Blinker', sans-serif;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+
+#service-part .service .one p {
+    color: rgba(255, 255, 255, 0.4);
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+#service-part .service .one a {
+    display: inline-block;
+    color: #a62ed9;
+}
+
+#service-part .service .one i {
+    color: #a62ed9;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+#service-part .service .one .learn {
+    margin-bottom: 10px;
+}
+
+#service-part .service .one .learn:hover i {
+    margin-left: 20px;
+}
+
+
+#service-part .service .one:hover {
+
+    margin-top: 0;
+}
+
+#service-part .service ul {
+    text-align: center;
+}
+
+#service-part .service ul li {
+    display: inline-block;
+    margin: 5px;
+
+
+}
+
+#service-part .service ul li button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 0;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: 0;
+    position: relative;
+}
+
+#service-part .service ul .slick-active button::after {
+    background: #a62ed9;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    content: "";
+}
+
+
+
+
+/*======================================
+            service css end
+========================================*/
+
+
+
+/*======================================
+            Testimonial css start
+========================================*/
+#Testimonial-part .Testimonial {
+    padding: 50px 0;
+  
+}
+
+#Testimonial-part .Testimonial .testi{
+      width: 630px;
+    margin: 0 auto;
+}
+#Testimonial-part .Testimonial .testi .top {
+
+    background: #333;
+    margin: 0 auto;
+    padding: 25px 30px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+}
+
+#Testimonial-part .Testimonial .testi .top p {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+#Testimonial-part .Testimonial .testi .top ul {
+    margin-bottom: 10px;
+}
+
+#Testimonial-part .Testimonial .testi .top ul li {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#Testimonial-part .Testimonial .testi .top ul li i {
+    color: #a62ed9;
+}
+
+#Testimonial-part .Testimonial .testi .top h4 {
+    color: #fff;
+
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#Testimonial-part .Testimonial .testi .top .country img {
+    display: inline-block;
+}
+
+#Testimonial-part .Testimonial .testi .top .country p {
+    display: inline-block;
+    color: #b7b7b7;
+    margin-top: 4px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 550;
+    text-transform: capitalize;
+}
+
+#Testimonial-part .Testimonial .testi .top .shape {
+
+    width: 30px;
+    height: 30px;
+    background: #333;
+    position: absolute;
+    bottom: -13px;
+    left: 50%;
+    -webkit-transform: translateX(-50%) rotate(45deg);
+    transform: translateX(-50%) rotate(45deg);
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 5px;
+    z-index: 999;
+
+}
+
+
+#Testimonial-part .Testimonial .slick-list {
+    padding-bottom: 20px;
+}
+
+
+#Testimonial-part .Testimonial .bottom {
+    width: 380px;
+
+    margin: 0 auto;
+
+}
+
+#Testimonial-part .Testimonial .one .img {
+    height: 126px;
+    display: inline-block;
+    width: 126px !important;
+    border-radius: 50%;
+    position: relative;
+    -webkit-transform: scale(.7);
+    transform: scale(.7);
+    border: 3px solid transparent;
+    margin-top: 20px;
+}
+
+#Testimonial-part .Testimonial .one .img img {
+    height: 100%;
+    width: 100%;
+}
+
+
+#Testimonial-part .Testimonial .one .img .overly {
+
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgba(11, 11, 11, .6);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#Testimonial-part .Testimonial .bottom .slick-current .overly {
+    background: transparent;
+}
+
+
+#Testimonial-part .Testimonial .bottom .slick-current .img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    border: 3px solid #a62ed9;
+
+
+}
+
+
+
+
+
+#Testimonial-part .Testimonial .bottom ul {
+    text-align: center;
+}
+
+#Testimonial-part .Testimonial .bottom ul li {
+    display: inline-block;
+    margin: 5px;
+
+
+}
+
+#Testimonial-part .Testimonial .bottom ul li button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 0;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: 0;
+    position: relative;
+}
+
+#Testimonial-part .Testimonial .bottom ul .slick-active button::after {
+    background: #a62ed9;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    content: "";
+}
+
+
+
+
+/*======================================
+            Testimonial css end
+========================================*/
+
+
+
+/*======================================
+            contact css start
+========================================*/
+#contact-part {
+    padding-top: 45px;
+}
+
+#contact-part .contact {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#contact-part .contact h4 {
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 40px;
+
+}
+
+
+#contact-part .contact form {
+    width: 100%;
+}
+
+#contact-part .contact form input {
+    width: 100%;
+    padding: 15px 40px;
+    background: #333;
+    border: none;
+    margin-bottom: 16px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #fff;
+    outline: 0;
+    -webkit-transition: .4s;
+    transition: .4s;
+
+
+}
+
+#contact-part .contact form input:focus {
+    background: #404040;
+}
+
+
+#contact-part .contact form textarea:focus {
+    background: #404040;
+}
+
+#contact-part .contact .naam {
+    position: relative;
+
+}
+
+#contact-part .contact .naam i {
+    color: #727272;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-size: 15px;
+
+}
+
+#contact-part .contact form textarea {
+    width: 100%;
+    padding: 15px 40px;
+    background: #333;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    resize: none;
+    outline: 0;
+    -webkit-transition: .4s;
+    transition: .4s;
+
+}
+
+
+#contact-part .contact form .button button {
+    padding: 15px 0px 15px 28px;
+    background: #a62ed9;
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    display: inline-block;
+    border: 0;
+    margin-left: 15px;
+    outline: 0;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+#contact-part .contact form .button button:hover {
+    padding-right: 20px;
+}
+
+#contact-part .contact form .button button i {
+    opacity: 0;
+    -webkit-transition: .4s;
+    transition: .4s;
+    margin-left: -2px;
+}
+
+#contact-part .contact form .button button:hover i {
+    opacity: 1;
+    margin-left: 0px;
+}
+
+
+#contact-part .contact .right P {
+
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+}
+
+#contact-part .contact .right ul {}
+
+#contact-part .contact .right ul li span {
+    display: block;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, .7);
+    margin-bottom: 3px;
+
+}
+
+#contact-part .contact .right ul li {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+
+#contact-part .contact .right ul li i {
+    color: #a62ed9;
+    margin-right: 9px;
+}
+
+#contact-part .contact .icons {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#contact-part .contact .icons i {
+
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: #333;
+    position: relative;
+    border-radius: 50%;
+    font-size: 22px;
+    margin-right: 10px;
+    color: #a62ed9;
+    text-align: center;
+    line-height: 60px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+#contact-part .contact .icons i:hover {
+    background: #a62ed9;
+    color: #ddd;
+}
+
+#contact-part .copyright {
+    background: #333;
+    padding: 12px 0;
+    -webkit-box-shadow: 1px 0px 14px -3px rgba(0, 0, 0, 0.30);
+    box-shadow: 1px 0px 14px -3px rgba(0, 0, 0, 0.30);
+}
+
+#contact-part .copyright ul {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contact-part .copyright ul .bd {
+    border-left: 1px solid #777777;
+    border-right: 1px solid #777777;
+    padding-left: 13px;
+
+}
+
+#contact-part .copyright ul li {
+    display: inline-block;
+    position: relative;
+
+    padding-right: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #ddd;
+}
+
+#contact-part .copyright ul li span {
+    color: #a62ed9;
+}
+
+
+
+
+.btop {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background: #a62ed9;
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    z-index: 9999;
+    color: #fff;
+    -webkit-transition: .5s;
+    transition: .5s;
+    border: 2px solid #a62ed9;
+}
+
+.btop:hover {
+    background: #fff;
+    color: #a62ed9;
+    border-color: #a62ed9;
+}
+
+
+/*======================================
+            contact css end
+========================================*/

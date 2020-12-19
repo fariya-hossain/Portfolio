@@ -1,0 +1,520 @@
+@media (min-width: 320px) and (max-width: 575px) {
+
+
+
+    /* <!-- ----------------nav start------------------ --> */
+
+    .navbar-brand {
+        display: block;
+
+    }
+
+
+    nav ul {
+        background: #222;
+        text-align: center;
+    }
+
+    nav ul li a:hover {
+
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+
+    .menu ul li a {
+        color: #fff;
+    }
+
+
+
+    .fixed ul li a:hover {
+        color: #fff;
+    }
+
+    .fixed .navbar-toggler {
+        color: #000;
+    }
+
+
+    .fixed .navbar-brand {
+
+        height: 35px;
+
+    }
+
+    /* <!-- ------------banner start---------- --> */
+
+    #banner-part .banner .overlay {
+
+        background: linear-gradient(70deg, rgba(3, 3, 27, 0) 20%, rgba(223, 14, 14, 0) 35%, rgb(0, 0, 0.9));
+
+        padding-top: 18px;
+        padding-bottom: 148px;
+    }
+
+    #banner-part .banner .overlay h3 {
+
+        font-size: 21px;
+        margin-top: 113px;
+    }
+
+    #banner-part .banner .overlay h1 {
+
+
+        font-size: 43px;
+        line-height: 45px;
+        margin-top: 3px;
+    }
+
+    #banner-part .banner .overlay h1 span {
+        display: block;
+    }
+
+    #banner-part .banner .overlay .ami {
+        margin-top: 22px;
+        font-size: 19px;
+        height: 10px;
+    }
+
+
+    /* <!-- ------------portfolio start---------- --> */
+    #portfolio-part {
+        padding-top: 70px;
+    }
+
+    #portfolio-part ul li {
+
+        font-size: 14px;
+        margin-right: 16px;
+    }
+
+    #portfolio-part .row {
+
+        margin-left: 0;
+    }
+
+
+    /* <!-- ------------about start---------- --> */
+
+    #about-part {
+        padding-top: 75px;
+    }
+
+    #about-part .text {
+        padding-left: 0;
+
+    }
+
+    #service-part {
+        padding-bottom: 50px;
+
+
+    }
+
+    /* <!-- ------------Testimonial start---------- --> */
+
+    #Testimonial-part .Testimonial .testi {
+
+        width: auto;
+    }
+
+
+    #Testimonial-part .Testimonial .testi .slick-list {}
+
+
+    #Testimonial-part .Testimonial .testi .top {
+
+        width: auto;
+    }
+
+    #Testimonial-part .Testimonial .bottom {
+        width: auto;
+
+    }
+
+    #Testimonial-part .Testimonial .one .img {
+        height: 100px;
+        width: 100px !important;
+    }
+
+
+
+    /* <!-- ------------contact start---------- --> */
+
+    #contact-part {
+        padding-top: 10px;
+    }
+
+
+
+    #contact-part .contact form .button {
+
+        margin-bottom: 60px;
+    }
+
+
+    #contact-part .contact .icons i {
+
+        width: 44px;
+        height: 44px;
+
+        font-size: 21px;
+
+        line-height: 44px;
+
+    }
+
+
+    #contact-part .copyright ul li {
+
+        padding-right: 0;
+        font-size: 13px;
+    }
+
+
+
+    .btop {
+
+        bottom: 62px;
+        right: 11px;
+
+        width: 40px;
+        height: 40px;
+        line-height: 33px;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* <!-- ----------------nav start------------------ --> */
+
+    .navbar-brand {
+        display: block;
+
+    }
+
+
+    nav ul {
+        background: #222;
+        text-align: center;
+    }
+
+    nav ul li a:hover {
+
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+
+    .menu ul li a {
+        color: #fff;
+    }
+
+
+
+    .fixed ul li a:hover {
+        color: #fff;
+    }
+
+    .fixed .navbar-toggler {
+        color: #000;
+    }
+
+
+    .fixed .navbar-brand {
+
+        height: 35px;
+
+    }
+
+
+
+
+    /* <!-- ----------------banner start------------------ --> */
+    #banner-part .banner .overlay {
+        padding-top: 186px;
+        padding-bottom: 121px;
+    }
+
+    #banner-part .banner .overlay h3 {
+
+        font-size: 31px;
+    }
+
+    #banner-part .banner .overlay h1 {
+
+
+        font-size: 65px;
+        line-height: 62px;
+        margin-top: 9px;
+    }
+
+    #banner-part .banner .overlay h1 span {
+        display: block;
+    }
+
+    /* <!-- ----------------portfolio start------------------ --> */
+
+    #portfolio-part ul li {
+
+        margin-right: 21px;
+        font-size: 14px;
+    }
+
+
+    /* <!-- ----------------about start------------------ --> */
+
+
+    #about-part .text {
+        padding-left: 0;
+    }
+
+    /* <!-- ----------------service start------------------ --> */
+
+    #service-part .service .one {
+
+        padding: 19px;
+    }
+
+    #service-part {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+    /* <!-- ----------------Testimonial start------------------ --> */
+
+
+    #Testimonial-part .Testimonial .testi .top {
+        width: 479px;
+    }
+
+    #Testimonial-part .Testimonial .testi {
+
+        width: 479px;
+    }
+
+    /* <!-- ----------------contact start------------------ --> */
+    #contact-part {
+        padding-top: 0;
+    }
+
+
+    #contact-part .contact {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    #contact-part .contact form .button {
+
+        margin-bottom: 50px;
+    }
+
+
+}
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px){
+        /* <!-- ----------------nav start------------------ --> */
+
+    .navbar-brand {
+        display: block;
+
+    }
+
+
+    nav ul {
+        background: #222;
+        text-align: center;
+    }
+
+    nav ul li a:hover {
+
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+
+    .menu ul li a {
+        color: #fff;
+    }
+
+
+
+    .fixed ul li a:hover {
+        color: #fff;
+    }
+
+    .fixed .navbar-toggler {
+        color: #000;
+    }
+
+
+    .fixed .navbar-brand {
+
+        height: 35px;
+
+    }
+     /* <!-- ----------------banner start------------------ --> */
+    
+    
+#banner-part .banner .overlay {
+        padding-top: 186px;
+        padding-bottom: 121px;
+    }
+
+    #banner-part .banner .overlay h3 {
+
+     font-size: 33px;
+    }
+
+    #banner-part .banner .overlay h1 {
+
+font-size: 77px;
+line-height: 73px;
+        margin-top: 9px;
+    }
+
+    #banner-part .banner .overlay h1 span {
+        display: block;
+    }
+
+
+    #portfolio-part .row {
+
+        margin-left: 0;
+    }
+
+    
+    
+    #about-part .text {
+    padding-left: 0;
+    }
+    
+#about-part .me {
+    
+    margin-top: 0;
+    margin-bottom: 5px;
+} 
+ 
+#about-part .tittle {
+   
+    padding-top: 0;
+    }
+    
+    #about-part .img {
+   
+    height: auto;
+}
+    
+    
+   #contact-part .contact .right P {
+   
+    font-size: 15px; 
+    }
+    
+    
+    #contact-part .contact .icons i {
+  
+    width: 40px;
+    height: 40px;
+        font-size: 23px;
+        line-height: 40px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    
+
+/* <!-- ------------nav start---------- --> */
+    
+ 
+    
+    #banner-part .banner .overlay{
+        padding-bottom: 137px;
+    }
+    #banner-part .banner .overlay h3{
+        font-size: 48px;
+    }
+    
+    #banner-part .banner .overlay h1{
+        font-size: 98px;
+        line-height: 92px;
+margin-top: 10px;
+    }
+    
+    #banner-part .banner .overlay h1 span{
+        display: block;
+    }
+/* <!-- ------------about start---------- --> */
+    
+   #about-part .text {
+    padding-left: 33px;
+    }
+    
+    #about-part .me {
+    margin-top: 0;
+    }
+    
+    #about-part .img img {
+    height: auto;
+}
+    
+    
+    #about-part .tittle{
+padding-top: 0;
+    }
+ /* <!-- ------------about start---------- --> */   
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
